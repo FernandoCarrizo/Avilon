@@ -805,7 +805,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #pricing h4 {
   font-size: 46px;
-  color: #1dc8cd;
+  color: #333333;
   font-weight: 300;
 }
 
@@ -832,7 +832,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #pricing ul i {
-  color: #1dc8cd;
+  color: #000000;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -1026,7 +1026,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 300;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: #1dc8cd;
+  color: #333333;
 }
 
 #contact .contact-about p {
@@ -1044,7 +1044,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 18px;
   display: inline-block;
   background: #fff;
-  color: #1dc8cd;
+  color: #333333;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1053,7 +1053,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  border: 1px solid #1dc8cd;
+  border: 1px solid #333333;
 }
 
 #contact .social-links a:hover {
