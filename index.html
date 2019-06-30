@@ -50,10 +50,11 @@
           <li><a href="#about">Nosotros</a></li>
           <li><a href="#pricing">Productos</a></li>
           <li><a href="#gallery">Galería</a></li>
-          <li class="menu-has-children"><a href="">Contacto</a>
+          <li><a href="#ubicacion">Ubicación</a></li>
+          <li class="menu-has-children"><a href="#contact">Contacto</a>
             <ul>
-              <li><a href="#">Facebook</a></li>
-              <li><a href="#">Instagram</a></li>
+              <li><a href="https://www.facebook.com">Facebook</a></li>
+              <li><a href="https://www.instagram.com">Instagram</a></li>
               <li><a href="#">Whatsapp</a></li>
               <li><a href="#contact">Envíar Email</a></li>
               <li><a href="#">Llamar</a></li>
@@ -495,7 +496,6 @@
     ============================-->
     <section id="contact">
       <div class="container">
-
         <div class="section-header">
           <h3 class="section-title">Contacto</h3>
           <span class="section-divider"></span>
@@ -503,15 +503,11 @@
             doloremque</p>
         </div>
 
-        <div class="features-row section-bg">
+        <div class="features-row">
           <div class="container">
             <div class="row">
               <div class="col-12">
 
-
-                <iframe class="advanced-feature-img-right wow fadeInRight"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.561372546277!2d-58.43124168480655!3d-34.6152514656154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca434c3c8c31%3A0x5712860e648eba74!2sAv.+La+Plata+4%2C+C1184AAN+CABA!5e0!3m2!1ses-419!2sar!4v1561885369329!5m2!1ses-419!2sar"
-                  frameborder="0" style="border:0" allowfullscreen></iframe>
                 <div class="wow fadeInLeft">
                   <div class="form">
                     <div id="sendmessage">Te mensaje fue enviado. Gracias!</div>
@@ -543,10 +539,65 @@
                     </form>
                   </div>
                 </div>
+
               </div>
             </div>
           </div>
         </div>
+      </div>
+    </section><!-- #contact -->
+
+    <section id="contact">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="section-title">Contacto</h3>
+          <span class="section-divider"></span>
+          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+            doloremque</p>
+        </div>
+
+        <div class="features-row">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+
+                <div class="wow fadeInLeft">
+                  <div class="form">
+                    <div id="sendmessage">Te mensaje fue enviado. Gracias!</div>
+                    <div id="errormessage"></div>
+                    <form action="" method="post" role="form" class="contactForm">
+                      <div class="form-row">
+                        <div class="form-group col-lg-6">
+                          <input type="text" name="name" class="form-control" id="name" placeholder="Nombre"
+                            data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                          <div class="validation"></div>
+                        </div>
+                        <div class="form-group col-lg-6">
+                          <input type="email" class="form-control" name="email" id="email" placeholder="Email"
+                            data-rule="email" data-msg="Please enter a valid email" />
+                          <div class="validation"></div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Tema"
+                          data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                        <div class="validation"></div>
+                      </div>
+                      <div class="form-group">
+                        <textarea class="form-control" name="message" rows="5" data-rule="required"
+                          data-msg="Please write something for us" placeholder="Mensaje"></textarea>
+                        <div class="validation"></div>
+                      </div>
+                      <div class="text-center"><button type="submit" title="Send Message">Envíar</button></div>
+                    </form>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section><!-- #contact -->
 
   </main>
