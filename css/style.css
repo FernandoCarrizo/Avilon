@@ -803,6 +803,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 28px;
 }
 
+.display-none {
+  display: none;
+}
+
 #pricing h4 {
   font-size: 46px;
   color: #333333;
