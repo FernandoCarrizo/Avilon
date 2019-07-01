@@ -62,14 +62,12 @@ h6 {
 }
 
 .back-to-top:focus {
-  background: linear-gradient(45deg, #1de099, #1dc8cd);
   color: #fff;
   outline: none;
 }
 
 .back-to-top:hover {
-  background: #1dc8cd;
-  color: #fff;
+  color: #B6B6B6;
 }
 
 /*--------------------------------------------------------------
@@ -105,7 +103,7 @@ h6 {
 
 #header #logo h1 a,
 #header #logo h1 a:hover {
-  color: #fff;
+  color: #B6B6B6;
 }
 
 #header #logo img {
@@ -323,7 +321,7 @@ h6 {
   margin: 4px 0 0 0;
   padding: 10px;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-  background: #fff;
+
 }
 
 .nav-menu ul li {
@@ -332,7 +330,8 @@ h6 {
 
 .nav-menu ul li a {
   padding: 10px;
-  color: #333;
+  background: #303030;
+  color: #ffffff;
   transition: 0.3s;
   display: block;
   font-size: 13px;
@@ -340,7 +339,7 @@ h6 {
 }
 
 .nav-menu ul li:hover>a {
-  color: #1dc8cd;
+  color: #B6B6B6;
 }
 
 .nav-menu ul ul {
@@ -406,7 +405,7 @@ h6 {
 }
 
 #mobile-nav ul li a:hover {
-  color: #fff;
+  color: #B6B6B6;
 }
 
 #mobile-nav ul li li {
@@ -420,10 +419,12 @@ h6 {
   padding: 15px;
   cursor: pointer;
   color: #fff;
+
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
   color: #1dc8cd;
+
 }
 
 #mobile-nav ul .menu-item-active {
@@ -958,7 +959,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #team .member .social a:hover {
-  color: #000000;
+  color: #B6B6B6;
 }
 
 #team .member .social i {
