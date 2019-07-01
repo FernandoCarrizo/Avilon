@@ -101,9 +101,12 @@ h6 {
   text-transform: uppercase;
 }
 
-#header #logo h1 a,
+#header #logo h1 a {
+  color: #ffffff;
+}
+
 #header #logo h1 a:hover {
-  color: #B6B6B6;
+  color: #b6b6b6;
 }
 
 #header #logo img {
@@ -313,6 +316,10 @@ h6 {
   outline: none;
 }
 
+.nav-menu a:hover {
+  color: #b6b6b6;
+}
+
 .nav-menu>li {
   margin-left: 10px;
 }
@@ -375,7 +382,7 @@ h6 {
   padding-top: 18px;
   bottom: 0;
   z-index: 998;
-  background: rgba(52, 59, 64, 0.9);
+  background: #303030;
   left: -260px;
   width: 260px;
   overflow-y: auto;
@@ -419,16 +426,14 @@ h6 {
   padding: 15px;
   cursor: pointer;
   color: #fff;
-
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #1dc8cd;
-
+  color: #B6B6B6;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #1dc8cd;
+  color: #B6B6B6;
 }
 
 #mobile-body-overly {
@@ -699,16 +704,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   letter-spacing: 1px;
   display: inline-block;
   padding: 8px 30px;
-  border-radius: 25px;
   transition: background 0.5s;
   margin: 10px;
-  border: 2px solid #fff;
-  color: #fff;
+  background: transparent;
+  border: 1px solid #888;
+  border-radius: 4px;
+  color: #000000;
 }
 
 #call-to-action .cta-btn:hover {
-  background: #000000;
-  border: 2px solid #000000;
+  border: 1px solid #000000;
 }
 
 /* More Features Section
