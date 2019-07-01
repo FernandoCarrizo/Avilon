@@ -496,8 +496,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .section-bg {
   padding: 1rem 1rem;
-  margin: 10px 10px !important;
-  background: #fafafa !important;
+  margin: 1rem 1rem;
+  background: #fafafa;
 }
 
 /* About Us Section
@@ -976,9 +976,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #gallery {
   overflow: hidden;
-  padding: 50px 50px;
-  margin: 10px 10px;
-  background: yellow;
+  padding: 2rem 2rem;
 }
 
 #gallery .container-fluid {
