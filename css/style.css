@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 
 body {
-  background: #fff;
+  background: #FFFFFF;
   color: #666666;
   font-family: "Open Sans", sans-serif;
   overflow-x: hidden;
@@ -490,7 +490,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 .section-bg {
-  background: #eff5f5;
+  padding: 50px 50px !important;
+  margin: 20px 20px !important;
+  background: #fafafa !important;
 }
 
 /* About Us Section
@@ -674,7 +676,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #call-to-action {
   overflow: hidden;
-  background: linear-gradient(rgba(21, 30, 31, 0.65), rgba(6, 29, 13, 0.2)), url(../img/call-to-action-bg.jpg) fixed center center;
+  background: linear-gradient(rgba(198, 211, 212, 0.65), rgba(174, 185, 177, 0.2)), url(../img/call-to-action-bg.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
@@ -968,9 +970,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #gallery {
-  background: #fff;
-  padding: 60px 0 0 0;
   overflow: hidden;
+  padding: 50px 50px;
+  margin: 10px 10px;
+  background: yellow;
 }
 
 #gallery .container-fluid {
@@ -1000,6 +1003,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #gallery .gallery-item img {
   transition: all ease-in-out 0.4s;
   width: 100%;
+  padding: 10px;
 }
 
 #gallery .gallery-item:hover img {
@@ -1140,7 +1144,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #footer {
-  background: #fff;
+  background: #FAFAFA;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   padding: 30px 0;
   color: #333;
