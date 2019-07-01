@@ -495,7 +495,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 .section-bg {
-  padding: 1rem;
+  padding: 2rem;
   margin: 1rem 1rem;
   background: #fafafa;
 }
@@ -503,10 +503,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* About Us Section
 --------------------------------*/
 
-#about {
-  padding: 60px 0;
-  overflow: hidden;
-}
+
 
 #about .about-img {
   height: 510px;
@@ -557,12 +554,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Product Featuress Section
 --------------------------------*/
-
-#features {
-  background: #fff;
-  padding: 60px 0 0 0;
-  overflow: hidden;
-}
 
 #features .features-img {
   text-align: center;
@@ -623,9 +614,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   overflow: hidden;
 }
 
-#advanced-features .features-row {
-  padding: 60px 0 30px 0;
-}
+
 
 #advanced-features h2 {
   font-size: 26px;
@@ -679,10 +668,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Call To Action Section
 --------------------------------*/
 
-#call-to-action {
-
-  padding: 80px 0;
-}
 
 #call-to-action .cta-title {
   color: #fff;
@@ -716,10 +701,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* More Features Section
 --------------------------------*/
 
-#more-features {
-  padding: 60px 0 60px 0;
-  overflow: hidden;
-}
 
 #more-features .box {
   padding: 40px;
@@ -769,12 +750,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Clients Section
 --------------------------------*/
 
-#clients {
-  padding: 30px 0;
-  background: #fff;
-  overflow: hidden;
-}
-
 #clients img {
   max-width: 100%;
   opacity: 0.5;
@@ -788,11 +763,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Pricing Section
 --------------------------------*/
-
-#pricing {
-  padding: 60px 0 60px 0;
-  overflow: hidden;
-}
 
 #pricing .box {
   padding: 40px;
@@ -869,10 +839,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Frequently Asked Questions Section
 --------------------------------*/
 
-#faq {
-  padding: 60px 0;
-  overflow: hidden;
-}
 
 #faq #faq-list {
   padding: 0;
