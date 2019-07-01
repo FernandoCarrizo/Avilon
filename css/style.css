@@ -495,8 +495,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 .section-bg {
-  padding: 50px 50px !important;
-  margin: 20px 20px !important;
+  padding: 1rem 1rem;
+  margin: 10px 10px !important;
   background: #fafafa !important;
 }
 
